@@ -1,0 +1,55 @@
+html{
+    font-family: 'Helvetica neue', Arial, 'sans serif';
+    font-size: 10px;
+    background-color: #ccc;
+    margin:0;
+    line-height: 2;
+}
+
+a{
+    text-decoration: none;
+}
+main{
+    min-height: calc(100vh - 200px - 100px);
+}
+header{
+    padding-top: 0;
+    font-size: 10em;
+    text-align: center;
+    border-bottom: 5px dashed grey;
+    height: 2em;
+}
+nav{
+    font-size: 1.5em;
+
+    width: 20em;
+    overflow: auto;
+
+    position: absolute;
+    right:1em;
+}
+nav header{
+    font-size: 1.5em;
+    margin: 10px;
+
+    border-bottom: 2px solid blue;
+}
+nav ol{
+    margin: 10px;
+    border: 5px solid gray;
+}
+.maps{
+    height:auto;
+}
+.map{
+    text-align: center;
+}
+
+footer{
+    height: 100px;
+    margin-top: calc(-height);
+    
+    border-top: 5px solid red;
+    font-size: 2em;
+    text-align: center;
+}
