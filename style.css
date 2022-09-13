@@ -29,14 +29,16 @@ nav{
 }
 nav header{
     font-size: 1.5em;
-    margin: 10px;
 
     border-bottom: 0.5vw solid blue;
 }
 nav ol{
-    margin: 1vw;
     border: 0.5vw solid gray;
     overflow-x: auto;
+}
+nav ol li{
+    margin-left: -1.5vw ;
+    font-size: 1vw ;
 }
 .maps{
     width: 70vw;
